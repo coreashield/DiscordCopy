@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
@@ -14,25 +14,23 @@
         android:layout_height="wrap_content"
         android:text="서울_인텔 인공지능 인재 양성 과정 2기"
         android:textAlignment="center"
+        android:textColor="#ffffff"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:textColor="#ffffff"
-        />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/et_search"
-        android:paddingTop="20dp"
-        android:layout_marginLeft="30dp"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        app:layout_constraintStart_toStartOf="@id/tv_name"
-        app:layout_constraintTop_toBottomOf="@id/tv_name"
+        android:layout_marginLeft="30dp"
         android:drawableLeft="@drawable/btn0"
         android:hint="검색하기"
+        android:paddingTop="20dp"
         android:textColorHint="@color/white"
-        />
+        app:layout_constraintStart_toStartOf="@id/tv_name"
+        app:layout_constraintTop_toBottomOf="@id/tv_name" />
 
     <ImageButton
         android:id="@+id/btn1"
@@ -41,7 +39,7 @@
         android:layout_marginStart="10dp"
         android:src="@drawable/btn1"
         app:layout_constraintBottom_toBottomOf="@id/et_search"
-        app:layout_constraintLeft_toRightOf="@id/et_search"/>
+        app:layout_constraintLeft_toRightOf="@id/et_search" />
 
     <ImageButton
         android:id="@+id/ib_btn2"
@@ -52,154 +50,153 @@
         app:layout_constraintStart_toEndOf="@id/btn1" />
 
     <TextView
-        android:textColor="#ffffff"
         android:id="@+id/tv_check"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="25dp"
         android:text="확인해주세요!"
+        android:textColor="#ffffff"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/et_search" />
 
     <TextView
-        android:textColor="#ffffff"
         android:id="@+id/tv_notice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="# 공지사항"
         android:paddingTop="5dp"
+        android:text="# 공지사항"
+        android:textColor="#ffffff"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tv_check" />
 
     <TextView
-        android:textColor="#ffffff"
         android:id="@+id/tv_question"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
         android:text="무엇이든 물어보세요!"
+        android:textColor="#ffffff"
         app:layout_constraintStart_toStartOf="@id/tv_notice"
         app:layout_constraintTop_toBottomOf="@id/tv_notice" />
 
     <TextView
-        android:textColor="#ffffff"
         android:id="@+id/tv_tofriend"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="5dp"
         android:text="# 동기에게-물어봐"
+        android:textColor="#ffffff"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tv_question" />
 
     <TextView
-        android:textColor="#ffffff"
         android:id="@+id/tv_study"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
         android:layout_marginTop="100dp"
         android:text="열심히 교육받아요!"
+        android:textColor="#ffffff"
         app:layout_constraintStart_toStartOf="@id/tv_notice"
         app:layout_constraintTop_toBottomOf="@id/tv_notice" />
 
     <TextView
-        android:textColor="#ffffff"
         android:id="@+id/tv_aicourse"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="# 인공지능-과정"
         android:paddingTop="5dp"
+        android:text="# 인공지능-과정"
+        android:textColor="#ffffff"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tv_study" />
 
     <TextView
-        android:textColor="#ffffff"
         android:id="@+id/tv_appcourse"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="# 앱-과정"
         android:paddingTop="35dp"
+        android:text="# 앱-과정"
+        android:textColor="#ffffff"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tv_study"  />
+        app:layout_constraintTop_toBottomOf="@id/tv_study" />
 
     <TextView
-        android:textColor="#ffffff"
         android:id="@+id/tv_projectblock"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="# 프로젝트-과정"
         android:paddingTop="65dp"
+        android:text="# 프로젝트-과정"
+        android:textColor="#ffffff"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tv_study"  />
+        app:layout_constraintTop_toBottomOf="@id/tv_study" />
 
     <TextView
-        android:textColor="#ffffff"
         android:id="@+id/tv_friendly"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
         android:layout_marginTop="20dp"
         android:text="친해져요!"
+        android:textColor="#ffffff"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tv_projectblock"/>
+        app:layout_constraintTop_toBottomOf="@id/tv_projectblock" />
 
     <TextView
-        android:textColor="#ffffff"
         android:id="@+id/tv_lunch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:paddingTop="20dp"
         android:text="# 점심 추천해요"
+        android:textColor="#ffffff"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:paddingTop="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/tv_friendly" />
 
     <TextView
-        android:textColor="#ffffff"
         android:id="@+id/tv_offtherecord"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:paddingTop="50dp"
         android:text="# 오프더레코드"
+        android:textColor="#ffffff"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:paddingTop="50dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/tv_friendly" />
 
     <TextView
-        android:textColor="#ffffff"
         android:id="@+id/tv_infoshare"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:paddingTop="80dp"
         android:text="# 정보 공유해요"
+        android:textColor="#ffffff"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:paddingTop="80dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/tv_friendly" />
 
     <TextView
-        android:textColor="#ffffff"
         android:id="@+id/studyroom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="스터디실"
-        android:textSize="20sp"
         android:paddingTop="30dp"
+        android:text="스터디실"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tv_infoshare"
-        />
+        app:layout_constraintTop_toBottomOf="@id/tv_infoshare" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
