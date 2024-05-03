@@ -68,6 +68,8 @@
         android:textColor="#ffffff"
         android:textSize="20sp"
         android:textStyle="bold"
+        android:clickable="true"
+        android:onClick="showCategoryToast"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tv_check" />
 
@@ -90,6 +92,8 @@
         android:textColor="#ffffff"
         android:textSize="20sp"
         android:textStyle="bold"
+        android:clickable="true"
+        android:onClick="showCategoryToast"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tv_question" />
 
@@ -113,6 +117,8 @@
         android:textColor="#ffffff"
         android:textSize="20sp"
         android:textStyle="bold"
+        android:clickable="true"
+        android:onClick="showCategoryToast"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tv_study" />
 
@@ -120,25 +126,29 @@
         android:id="@+id/tv_appcourse"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop="35dp"
+        android:paddingTop="5dp"
         android:text="# 앱-과정"
         android:textColor="#ffffff"
         android:textSize="20sp"
         android:textStyle="bold"
+        android:clickable="true"
+        android:onClick="showCategoryToast"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tv_study" />
+        app:layout_constraintTop_toBottomOf="@id/tv_aicourse" />
 
     <TextView
         android:id="@+id/tv_projectblock"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop="65dp"
+        android:paddingTop="5dp"
         android:text="# 프로젝트-과정"
         android:textColor="#ffffff"
         android:textSize="20sp"
         android:textStyle="bold"
+        android:clickable="true"
+        android:onClick="showCategoryToast"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tv_study" />
+        app:layout_constraintTop_toBottomOf="@id/tv_appcourse" />
 
     <TextView
         android:id="@+id/tv_friendly"
@@ -155,37 +165,43 @@
         android:id="@+id/tv_lunch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop="20dp"
+        android:paddingTop="10dp"
         android:text="# 점심 추천해요"
         android:textColor="#ffffff"
         android:textSize="20sp"
         android:textStyle="bold"
+        android:clickable="true"
+        android:onClick="showCategoryToast"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/tv_friendly" />
+        app:layout_constraintTop_toBottomOf="@id/tv_friendly" />
 
     <TextView
         android:id="@+id/tv_offtherecord"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop="50dp"
+        android:paddingTop="0dp"
         android:text="# 오프더레코드"
         android:textColor="#ffffff"
         android:textSize="20sp"
         android:textStyle="bold"
+        android:clickable="true"
+        android:onClick="showCategoryToast"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/tv_friendly" />
+        app:layout_constraintTop_toBottomOf="@id/tv_lunch" />
 
     <TextView
         android:id="@+id/tv_infoshare"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop="80dp"
+        android:paddingTop="10dp"
         android:text="# 정보 공유해요"
         android:textColor="#ffffff"
         android:textSize="20sp"
         android:textStyle="bold"
+        android:clickable="true"
+        android:onClick="showCategoryToast"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/tv_friendly" />
+        app:layout_constraintTop_toBottomOf="@id/tv_offtherecord" />
 
     <TextView
         android:id="@+id/studyroom"
@@ -196,6 +212,8 @@
         android:textColor="#ffffff"
         android:textSize="20sp"
         android:textStyle="bold"
+        android:clickable="true"
+        android:onClick="showCategoryToast"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tv_infoshare" />
 
