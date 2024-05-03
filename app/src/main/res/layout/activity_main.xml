@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#333333"
     tools:context=".MainActivity">
 
     <TextView
@@ -17,6 +18,7 @@
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:textColor="#ffffff"
         />
 
     <EditText
@@ -50,6 +52,7 @@
         app:layout_constraintStart_toEndOf="@id/btn1" />
 
     <TextView
+        android:textColor="#ffffff"
         android:id="@+id/tv_check"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -59,6 +62,7 @@
         app:layout_constraintTop_toBottomOf="@id/et_search" />
 
     <TextView
+        android:textColor="#ffffff"
         android:id="@+id/tv_notice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -70,6 +74,7 @@
         app:layout_constraintTop_toBottomOf="@id/tv_check" />
 
     <TextView
+        android:textColor="#ffffff"
         android:id="@+id/tv_question"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -79,6 +84,7 @@
         app:layout_constraintTop_toBottomOf="@id/tv_notice" />
 
     <TextView
+        android:textColor="#ffffff"
         android:id="@+id/tv_tofriend"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -90,6 +96,7 @@
         app:layout_constraintTop_toBottomOf="@id/tv_question" />
 
     <TextView
+        android:textColor="#ffffff"
         android:id="@+id/tv_study"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -100,6 +107,7 @@
         app:layout_constraintTop_toBottomOf="@id/tv_notice" />
 
     <TextView
+        android:textColor="#ffffff"
         android:id="@+id/tv_aicourse"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -111,6 +119,7 @@
         app:layout_constraintTop_toBottomOf="@id/tv_study" />
 
     <TextView
+        android:textColor="#ffffff"
         android:id="@+id/tv_appcourse"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -122,6 +131,7 @@
         app:layout_constraintTop_toBottomOf="@id/tv_study"  />
 
     <TextView
+        android:textColor="#ffffff"
         android:id="@+id/tv_projectblock"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -133,6 +143,7 @@
         app:layout_constraintTop_toBottomOf="@id/tv_study"  />
 
     <TextView
+        android:textColor="#ffffff"
         android:id="@+id/tv_friendly"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -143,6 +154,7 @@
         app:layout_constraintTop_toBottomOf="@id/tv_projectblock"/>
 
     <TextView
+        android:textColor="#ffffff"
         android:id="@+id/tv_lunch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -154,6 +166,7 @@
         app:layout_constraintTop_toTopOf="@id/tv_friendly" />
 
     <TextView
+        android:textColor="#ffffff"
         android:id="@+id/tv_offtherecord"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -165,6 +178,7 @@
         app:layout_constraintTop_toTopOf="@id/tv_friendly" />
 
     <TextView
+        android:textColor="#ffffff"
         android:id="@+id/tv_infoshare"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -176,6 +190,7 @@
         app:layout_constraintTop_toTopOf="@id/tv_friendly" />
 
     <TextView
+        android:textColor="#ffffff"
         android:id="@+id/studyroom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
