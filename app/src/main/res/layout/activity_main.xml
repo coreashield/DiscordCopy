@@ -3,7 +3,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
-
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
@@ -16,16 +15,18 @@
         android:textAlignment="center"
         android:textSize="20sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="-1dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
 
     <EditText
         android:id="@+id/et_search"
-        android:paddingTop="40dp"
+        android:paddingTop="20dp"
         android:layout_marginLeft="40dp"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="@id/tv_name"
+        app:layout_constraintTop_toBottomOf="@id/tv_name"
         android:drawableLeft="@drawable/btn0"
         android:hint="검색하기"
         android:textAlignment="center"
@@ -35,11 +36,10 @@
         android:id="@+id/btn1"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
-        android:layout_marginStart="216dp"
+        android:layout_marginStart="10dp"
         android:src="@drawable/btn1"
         app:layout_constraintBottom_toBottomOf="@id/et_search"
-        app:layout_constraintend_toStartOf="@id/et_search"
-        app:layout_constraintLeft_toLeftOf="@id/et_search"/>
+        app:layout_constraintLeft_toRightOf="@id/et_search"/>
 
     <ImageButton
         android:id="@+id/ib_btn2"
@@ -55,9 +55,8 @@
         android:layout_height="wrap_content"
         android:paddingTop="25dp"
         android:text="확인해주세요!"
-        app:layout_constraintEnd_toEndOf="match_parent"
-        app:layout_constraintStart_toStartOf="match_parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_search" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/et_search" />
 
     <TextView
         android:id="@+id/tv_notice"
@@ -67,9 +66,8 @@
         android:paddingTop="5dp"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="match_parent"
-        app:layout_constraintEnd_toEndOf="match_parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_check" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_check" />
 
     <TextView
         android:id="@+id/tv_question"
@@ -77,9 +75,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
         android:text="무엇이든 물어보세요!"
-        app:layout_constraintEnd_toEndOf="match_parent"
         app:layout_constraintStart_toStartOf="@id/tv_notice"
-        app:layout_constraintTop_toBottomOf="@+id/tv_notice" />
+        app:layout_constraintTop_toBottomOf="@id/tv_notice" />
 
     <TextView
         android:id="@+id/tv_tofriend"
@@ -89,6 +86,7 @@
         android:text="# 동기에게-물어봐"
         android:textSize="20sp"
         android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tv_question" />
 
     <TextView
@@ -98,9 +96,8 @@
         android:layout_marginStart="4dp"
         android:layout_marginTop="100dp"
         android:text="열심히 교육받아요!"
-        app:layout_constraintEnd_toEndOf="match_parent"
         app:layout_constraintStart_toStartOf="@id/tv_notice"
-        app:layout_constraintTop_toBottomOf="@+id/tv_notice" />
+        app:layout_constraintTop_toBottomOf="@id/tv_notice" />
 
     <TextView
         android:id="@+id/tv_aicourse"
@@ -110,6 +107,7 @@
         android:paddingTop="5dp"
         android:textSize="20sp"
         android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tv_study" />
 
     <TextView
@@ -120,6 +118,7 @@
         android:paddingTop="35dp"
         android:textSize="20sp"
         android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tv_study"  />
 
     <TextView
@@ -130,6 +129,7 @@
         android:paddingTop="65dp"
         android:textSize="20sp"
         android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tv_study"  />
 
     <TextView
@@ -139,6 +139,7 @@
         android:layout_marginStart="4dp"
         android:layout_marginTop="20dp"
         android:text="친해져요!"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tv_projectblock"/>
 
     <TextView
@@ -149,6 +150,7 @@
         android:textSize="20sp"
         android:textStyle="bold"
         android:paddingTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/tv_friendly" />
 
     <TextView
@@ -159,6 +161,7 @@
         android:textSize="20sp"
         android:textStyle="bold"
         android:paddingTop="50dp"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/tv_friendly" />
 
     <TextView
@@ -169,6 +172,7 @@
         android:textSize="20sp"
         android:textStyle="bold"
         android:paddingTop="80dp"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/tv_friendly" />
 
     <TextView
@@ -179,6 +183,7 @@
         android:textSize="20sp"
         android:paddingTop="30dp"
         android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tv_infoshare"
         />
 
