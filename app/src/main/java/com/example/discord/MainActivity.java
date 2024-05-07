@@ -28,11 +28,9 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void showCategoryToast(View view) {
-        // Extract category name from TextView's text
         TextView textView = (TextView) view;
-        String categoryName = textView.getText().toString().substring(0);
+        String categoryName = textView.getText().toString();
 
-        // Show toast with category name
         Toast.makeText(this, categoryName, Toast.LENGTH_SHORT).show();
     }
 }
